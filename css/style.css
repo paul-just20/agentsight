@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css3?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Nunito',sans-serif;
+
+}
+.checked{
+    color: orange;
+}
+#data-output{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+img{
+    height: 50px;
+    cursor: pointer;
+    padding: 2px 50px;
+}
+
+
+
+div.border{
+    border-bottom: 4px solid #143945;
+}
+
+h1.logo{
+    font-family: 'Nunito';
+    margin-left: 3rem;
+    font-weight:bolder;
+    font-size: 1.6rem;
+    
+}
+
+.sub-title{
+    font-size: 12px;
+    margin-top: -10px;
+    margin-left: 3rem;
+    position: absolute;
+    font-weight: bold;
+ 
+}
+/* NAVIGATION LINKS */
+.headBox{
+background-color:#0D8CA7;
+overflow: hidden;
+padding: 10px 0;
+
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+.linkContainer{
+ display: inline;
+
+position: absolute;
+
+
+}
+
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+  ul.linkContainer > li.navlinks:nth-child(1){
+    margin-left: 120px;
+  }
+
+  ul.linkContainer > li.navlinks > a.active,
+  ul.linkContainer > li.navlinks > a:hover{
+    background-color: #057e99;
+  }
+
+  li{
+    float: left;
+    position: relative;
+}
+li.navlinks{
+    align-items: center;
+    justify-items: center;
+    
+}
+
+li.navlinks a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: -9px;
+
+  }
+.categorylabels{
+    color: #10707c;
+}
+
+.bg-milgreen{
+    background-color: #e4e4de79;
+}
+.bg-slightgreen{
+    background-color: #ECF7FF;
+}
+.imagepattern{
+    background-image: url("../images/pattern3.png");
+
+    background-repeat: repeat;
+
+}
+.bg-subtext2{
+    color: #4a726b;
+}
+.bg-panel{
+    background-color: #23859F;
+}
+.employer-bg{
+    background-color: #9153D8;
+}
+.top-bg{
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+.btn{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn, .btn:link, .btn:visited, .btn:active{
+    background-color: #239B9F;
+    border: none;
+
+}
+.btn:hover, .btn:active{
+    background-color: #1a8386;
+}
+/***   CARDS ****/
+
+div.card{
+    cursor: pointer;
+    border-radius: 15px;
+}
+div.card:hover{
+
+    background: linear-gradient(145deg, #d6e2e2, #ffffff);
+    box-shadow:  22px 22px 43px #dbe7e7,
+                 -22px -22px 43px #ffffff;
+
+
+}
+.card-title{
+    font-weight: bold;
+    color:#147f92ec;
+    font-size: 1.35rem;
+}
+
+.card{
+padding: 1rem;
+    border: 0px;
+   
+    background-color: #eee;
+border-radius: 0;
+
+}
+
+/*** INPUTS ***/
