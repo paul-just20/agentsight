@@ -6,7 +6,15 @@ body{
     font-family: 'Nunito',sans-serif;
 
 }
-
+.checked{
+    color: orange;
+}
+#data-output{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
 
 img{
     height: 50px;
