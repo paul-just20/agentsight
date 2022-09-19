@@ -1,24 +1,26 @@
-[{
-	"id": 1,
-	"jobName":"Full-Stack Developer",
-	"jobDescription": "Prepares design needed for the quality testing",
-	"company": "AllTail Web Solutions",
-	"rating": "4.4",
-	"place": "Pasong Tamo, Quezon City",
-	"salary": "32,000.00",
-	"datePosted": "09-12-2022",
-	"vacancies":20
-},
+	[{
+		"id": 1,
+		"jobName":"Full-Stack Developer",
+		"jobDescription": "Prepares design needed for the quality testing",
+		"company": "AllTail Web Solutions",
+		"rating": "4.4",
+		"place": "Pasong Tamo, Quezon City",
+		"salary": "32,000.00",
+		"datePosted": "09-12-2022",
+		"vacancies":20,
+		"workType":["Full-time","Part-time","Contractual"]
+	},
 {
 	"id": 2,
 	"jobName":"Network Engineer",
 	"jobDescription": "Prepares design architecture and networks",
-	"company": "AllTail Web Solutions",
+	"company": "Google DC Philippines",
 	"rating": "4.5",
 	"place": "Mandaluyong, Madaya City",
 	"salary": "15,000.00",
 	"datePosted": "09-12-2022",
-	"vacancies":2
+	"vacancies":2,
+	"workType":["Full-time","Part-time"]
 },
 {
 	"id": 3,
@@ -29,7 +31,8 @@
 	"place": "Lipa, Taguig City",
 	"salary": "25,000.00",
 	"datePosted": "09-11-2022",
-	"vacancies":3
+	"vacancies":3,
+	"workType":["Full-time","Part-time","Contractual"]
 },
 {
 	"id": 4,
@@ -40,6 +43,19 @@
 	"place": "Plaridel, ImizCity, Sorsorgon",
 	"salary": "85,000.00",
 	"datePosted": "09-11-2022",
-	"vacancies":8
+	"vacancies":8,
+	"workType":["Full-time","Contractual"]
+},
+{
+	"id": 5,
+	"jobName":"QA Tester Jr.",
+	"jobDescription": "Prepares extensive testing on the quality of the product.",
+	"company": "JumbSolutions Inc.,",
+	"rating": "4.0",
+	"place": "Imus, Cavite",
+	"salary": "100,000.00",
+	"datePosted": "09-11-2022",
+	"vacancies":8,
+	"workType":["Full-time","Contractual"]
 }]
 
